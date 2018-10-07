@@ -10,3 +10,12 @@
     width:200px;
     height:auto;
 }
+.index-jumbo {
+    background-image: url("../images/rescue.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#jumbo-info {
+    background-color: rgba(255,255,255, 0.7);
+    border-radius:10px;
+}
