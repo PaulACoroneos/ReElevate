@@ -55,30 +55,36 @@
             <p class="lead">Welcome organization owner. Please signup below!</p>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-12">
                 <form class="needs-validation" novalidate="">
                     <div class="row">
                         <div class="col-12">
                             <label for="organization">Organization</label>
                             <input id="organization" class="form-control" placeholder="org name" value="" required="" type="text">
                         </div>
-                        <div class="col-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
                             <label for="city">City</label>
                             <input id="city" class="form-control" placeholder="city" value="" required="" type="text">
                         </div>
-                        <div class="col-12">
+                        <div class="col-2">
                             <label for="state">State</label>
                             <input id="state" class="form-control" placeholder="state" value="" required="" type="text">
                         </div>
-                        <div class="col-12">
+                        <div class="col-6">
                             <label for="country">Country</label>
                             <input id="country" class="form-control" placeholder="country" value="" required="" type="text">
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-12">
                             <label for="org-scope">Area Scope of Organization</label>
                             <input id="org-scope" class="form-control" placeholder="org-scope" value="" required="" type="text">
                         </div>
-                        <div class="col-12">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
                             <div class="lead">Disaster type expertise</div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="wildfire">
@@ -97,7 +103,7 @@
                                 <label class="form-check-label" for="hurricane">Hurricane</label>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-6">
                             <div class="lead">Relief Resource Type</div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="relief-volunteer">
@@ -126,23 +132,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="lead">Primary Org Contact Information</div>
+                    </div>
+                    <div class="lead">Primary Org Contact Information</div>
+                    <div class="row">
+                        <div class="col-6">
                             <div class="form-check">
                                 <label for="org-contact-email">Contact email</label>
                                 <input id="org-contact-email" class="form-control" placeholder="org contact email" value="" required="" type="email">
                             </div>
+                        </div>
+                        <div class="col-6">
                             <div class="form-check">
                                 <label for="org-contact-phone">Contact phone</label>
                                 <input id="org-contact-phone" class="form-control" placeholder="org contact phone" value="" required="" type="email">
                             </div>
-                            <div class="form-check">
-                                <label for="org-contact-social-media">Social media accounts</label>
-                                <div>facebook placeholder</div>
-                                <div>twitter placeholder</div>
-                            </div>
                         </div>
                     </div>
+                    <div class="lead">Social media accounts</div>
+                    <div><img id="facebook" class="mb-2" src="../images/facebook.png" alt="facebook placeholder"></div>
+                    <div><img src="../images/twitter.png" alt="twitter placeholder"></div>
                 </form>
             </div>
         </div>
