@@ -10,3 +10,35 @@
     width:200px;
     height:auto;
 }
+.index-jumbo {
+    background-image: url("../images/rescue.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.jumbo-info {
+    background-color: rgba(255,255,255, 0.7);
+    border-radius:10px;
+}
+html, body {
+    background:#f8f9fa;
+}
+#jumbo-mission {
+    background-image: url("../images/mission-statement.jpg");
+    background-size: cover;
+}
+.jumbo-hurricane {
+    background-image: url("../images/hurricane.jpg");
+    background-size: cover;
+}
+#jumbo-future {
+    background-image: url("../images/future_jumbo.jpeg");
+    background-size: cover;
+}
+.jumbo-earthquake {
+    background-image: url("../images/jumbo-earthquake.jpg");
+    background-size: cover;
+}
+.border-round {
+    border: lightgray 2px solid;
+    border-radius:10px
+}
