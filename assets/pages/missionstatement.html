@@ -15,7 +15,7 @@
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html">Elevate</a>
+        <a class="navbar-brand" href="./index.html">ReElevate </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,21 +25,22 @@
                 <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Wiki</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+                <a class="nav-link" href="#">Active Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#">Future Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Past Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Organizations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Volunteers</a>
+            </li>
+            <li>
+                <button class="btn btn-md btn-success ml-2">Donate</button>
             </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -47,47 +48,26 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
+        <button class="btn btn-md btn-secondary ml-2">Login</button>
     </nav>
-    <!-- HOME PAGE JUMBOTRON-->
-    <div class="jumbotron">
-        <h1 class="display-4">Elevate</h1>
-        <p class="lead">Organizing relief to help those who need it the most.</p>
-        <hr class="my-4">
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn about our mission statement</a>
-        </p>
-    </div>
 
     <!-- NEW USER SIGNUP-->
     <div class="container">
+        <!-- HOME PAGE JUMBOTRON-->
+        <div class="jumbotron" id="jumbo-mission">
+            <h1 class="display-1 text-center jumbo-info">Mission Statement</h1>
+        </div>
         <div class="row">
-            <div class="col-sm-12 col-md-3">
-                <img class="rounded-circle" src="../images/volunteer.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Volunteers</h2>
-                <p>Individuals with resources or skills they want to contribute.</p>
-                <p><a class="btn btn-secondary" href="./volunteer.html" role="button">Sign up »</a></p>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <img class="rounded-circle" src="../images/organization.jpeg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Organizations</h2>
-                <p>Larger organizaton with existing pool of volunteers or resources.</p>
-                <p><a class="btn btn-secondary" href="../pages/organization.html" role="button">Sign up »</a></p>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <img class="rounded-circle" src="../images/affected.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Affected parties</h2>
-                <p>For those who are affected by a disaster register here.</p>
-                <p><a class="btn btn-secondary" href="../pages/affected.html" role="button">Sign up »</a></p>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <img class="rounded-circle" src="../images/business.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Business</h2>
-                <p>Businesses that want to sign up to help.</p>
-                <p><a class="btn btn-secondary" href="../pages/affected.html" role="button">Sign up »</a></p>
+            <div class="col-12" >
+                <p class="lead"> People inherently want to help other people in need. But organization of volunteers and resources to get help to affected individuals 
+                    can be extremely challenging. Most efforts to date to organize dissimilar groups of people have been of a closed source variety or 
+                    otherwise partioned off. ReElevate is designed as a non-profit open source framework to organize volunteers, affected individuals, businesses, 
+                    and organizations before, during, and after a disaster in order to connect the right resources and skill for the right needs.
+                </p>
             </div>
         </div>
-    </div>
 
+    </div>
     <!-- STICKY FOOTER-->
     <!-- <div class="footer">
         <div class="container">

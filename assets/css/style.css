@@ -15,7 +15,18 @@
     background-size: auto;
     background-repeat: no-repeat;
 }
-#jumbo-info {
+.jumbo-info {
     background-color: rgba(255,255,255, 0.7);
     border-radius:10px;
+}
+html, body {
+    background:#f8f9fa;
+}
+#jumbo-mission {
+    background-image: url("../images/mission-statement.jpg");
+    background-size: cover;
+}
+.jumbo-hurricane {
+    background-image: url("../images/hurricane.jpg");
+    background-size: cover;
 }
