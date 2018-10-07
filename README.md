@@ -1,7 +1,7 @@
 # ReElevate
 
-One Paragraph of project description goes here
-
+People inherently want to help other people in need. But organization of volunteers and resources to get help to affected individuals can be extremely challenging. Most efforts to date to organize dissimilar groups of people have been of a closed source variety or otherwise partioned off. ReElevate is designed as a non-profit open source framework to organize volunteers, affected individuals, businesses, and organizations before, during, and after a disaster in order to connect the right resources and skill for the right needs.
+                
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -58,8 +58,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Bootstrap](http://getbootstrap.com/docs/4.1/getting-started/introduction/) - FrontEnd Framework
+* [Angular.js](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
